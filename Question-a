@@ -1,5 +1,5 @@
 ts=int(input("Enter speed of the train :"))
 tt=int(input("Enter time taken by the train to cross the pole:"))
-speed=ts*(5/10)
+speed=ts*(5/18)
 dist=speed*tt
 print("Length of the train:",dist)
