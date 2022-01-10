@@ -1,0 +1,11 @@
+tl=int(input("Enter length of the train:"))
+ts=int(input("Enter speed of the train:"))
+speed=ts*(5/18)
+print("Speed of the train in m/s :",speed)
+ms=int(input("Enter speed of the man:"))
+rel_speed=(ts-ms)*(5/18)
+print("Relative speed in m/s :",rel_speed)
+tt=tl/rel_speed
+print("Time taken to cross the man:",tt)
+
+
