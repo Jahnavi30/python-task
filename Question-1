@@ -1,0 +1,6 @@
+x=int(input("Enter length of the train:"))
+y=int(input("Enter the speed of the man:"))
+z=int(input("Enter the time taken by the train to cross the man:"))
+rel_speed=(x/z)*(18/5)
+t_speed = rel_speed + z
+print("Speed of the train:",t_speed)
