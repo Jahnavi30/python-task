@@ -1,0 +1,9 @@
+ts=int(input("Enter speed of the train:"))
+speed=ts*(5/18)
+print("Speed of the train in m/s:",speed)
+tl=int(input("Enter length of the train:"))
+pl=int(input("Enter length of the platform:"))
+dist=tl+pl
+print("Distance covered to cross the platform:",dist)
+tt=dist/speed
+print("Time taken to cross the platform:",tt)
